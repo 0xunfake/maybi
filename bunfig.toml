@@ -1,0 +1,6 @@
+[lint.rules]
+"no-debug" = "error"
+
+[fmt]
+semi = false
+singleQuote = true
