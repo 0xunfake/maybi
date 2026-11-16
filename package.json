@@ -1,10 +1,10 @@
 {
   "name": "maybi",
-  "module": "index.ts",
   "type": "module",
   "private": true,
   "scripts": {
     "typecheck": "bun check",
+    "start": "bun ./src/*.html",
     "build": "bun run scripts/build.ts"
   },
   "devDependencies": {
@@ -16,6 +16,7 @@
     "typescript": "^7"
   },
   "dependencies": {
+    "@base-ui/react": "^1.9.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
   }
